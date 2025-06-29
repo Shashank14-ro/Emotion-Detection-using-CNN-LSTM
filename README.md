@@ -5,6 +5,8 @@ Emotion detection system using Convolutional Neural Networks (CNN) and Long Shor
 
 This project implements an advanced facial emotion recognition system using a combination of Convolutional Neural Networks (CNN) for spatial feature extraction and Long Short-Term Memory (LSTM) networks for temporal sequence analysis. It is ideal for recognizing emotional changes across video frames or image sequences.
 
+Haarcascade.xml is used for object detection; in our project, we use it to detect faces, which are then classified using a CNN & LSTM algorithm.
+To improve output accuracy, LSTM is integrated into the existing CNN model. While CNN extracts spatial features from facial images, the LSTM network captures temporal dependencies between frames, enabling robust emotion classification across sequences
 ---
 
 ## 🧠 Key Features
